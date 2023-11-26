@@ -1,0 +1,74 @@
+body {
+     background-image: url(images/pattern-background-desktop.svg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px;
+    
+    }
+.content {
+    border-radius: 5%;
+    width: 300px;
+    overflow: hidden;
+    background-color: aliceblue;
+    text-align: centers;
+    justify-self: center;
+    align-self: center;
+    
+
+}
+.summary {
+    text-align: center;
+    margin: 0 20px ;
+}
+.Order {
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+} 
+.plan-price{
+    display: inline-flex;
+    height: 50px;
+    background-color: rgb(206, 201, 201);
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px ; 
+} 
+.price{
+    text-align: left;
+    align-self: baseline;
+}
+.Change {
+    justify-content: right;
+    align-self: flex-end;
+
+}
+.Proceed {
+    background-color: rgb(51, 20, 231);
+    height: 30px;
+    border-radius: 20px;
+    width: 75%;
+    text-align: center;
+    align-self: center;
+    margin-left: 50px;
+    align-items: center;
+}
+.Cancel {
+        background: rgb(190, 182, 182);
+        height: 25px;
+        margin-top: 10px;
+        justify-self: center;
+        font-weight: 50;
+        text-align: center;
+        width: 75%;
+       border-radius: 20px;
+       margin-left: 50px;
+       font-size: small;
+}
+.Proceed:hover{
+       background-color: rgb(98, 75, 231); 
+}
+.Cancel:hover{
+        font-size: large;
+        
+}
